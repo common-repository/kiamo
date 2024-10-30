@@ -1,0 +1,287 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kiamo\n"
+"POT-Creation-Date: 2019-04-03 09:23+0200\n"
+"PO-Revision-Date: 2019-04-03 09:25+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: kiamo.php\n"
+"X-Poedit-SearchPath-1: templates\n"
+"X-Poedit-SearchPath-2: includes\n"
+
+#: includes/class-kiamo-license.php:29 includes/class-kiamo-license.php:35
+msgid "Register your license"
+msgstr "Enregistrer votre licence"
+
+#: includes/class-kiamo-license.php:32
+msgid ""
+"You currently use the free version, <a href=\"https://ircf.fr/plugins-"
+"wordpress/\" target=\"_blank\">click here to purchase the pro version</a>."
+msgstr ""
+"VOus utilisez actuellement la version gratuite, <a href=\"https://ircf.fr/"
+"plugins-wordpress/\" target=\"_blank\">cliquez-ici pour commander la "
+"licence pro</a>."
+
+#: includes/class-kiamo-license.php:37
+msgid "Validate"
+msgstr "Valider"
+
+#: includes/class-kiamo-license.php:42
+msgid ""
+"You currently use the pro version, <a  href=\"https://ircf.fr/plugins-"
+"wordpress/\" target=\"_blank\">click here to get more information</a>."
+msgstr ""
+"Vous utilisez actuellement la version pro, <a  href=\"https://ircf.fr/"
+"plugins-wordpress/\" target=\"_blank\">cliquez-ici pour plus "
+"d'informations</a>."
+
+#: includes/class-kiamo-license.php:44
+msgid ""
+"You can contact our technical support by phone at <a href=\"tel:"
+"+33553467179\">+33 5 53 46 71 79</a> or by e-mail at <a href=\"mailto:"
+"technique@ircf.fr\">technique@ircf.fr</a>"
+msgstr ""
+"Vous pouvez contacter notre support technique par téléphone au <a href="
+"\"tel:+33553467179\">+33 5 53 46 71 79</a>ou par mail à <a href=\"mailto:"
+"technique@ircf.fr\">technique@ircf.fr</a>"
+
+#: includes/class-kiamo-license.php:78
+msgid "Unexpected Error! The query returned with an error."
+msgstr "Une erreur a empêché la validation de votre licence."
+
+#: kiamo.php:79
+msgid "Sorry, only admin can edit kiamo options"
+msgstr "Désolé, seuls les administrateurs peuvent configurer Kiamo"
+
+#: kiamo.php:83 kiamo.php:206
+msgid "Update"
+msgstr "Mettre à jour"
+
+#: kiamo.php:90
+msgid "Options saved"
+msgstr "Options enregistrées"
+
+#: kiamo.php:91 kiamo.php:207
+msgid "Reset"
+msgstr "Remettre à zéro"
+
+#: kiamo.php:93
+msgid "Options resetted"
+msgstr "Options remises à zéro"
+
+#: kiamo.php:136
+msgid "Configure Kiamo"
+msgstr "Configurer Kiamo"
+
+#: kiamo.php:137
+msgid ""
+"Kiamo plugin by IRCF is a non-official WordPress plugin for Kiamo chat and "
+"call back services. The author of this plugin (IRCF) is not related in any "
+"way to Kiamo brand."
+msgstr ""
+"Le plugin Kiamo de IRCF est un plugin WordPress non-officiel pour intégrer "
+"le chat et le call back Kiamo. L'auteur de ce plugin (IRCF) n'est lié en "
+"aucune façon à la marque Kiamo."
+
+#: kiamo.php:138
+msgid ""
+"For more information about Kiamo, please visit <a href=\"https://kiamo.fr\" "
+"target=\"_blank\">the official Kiamo website</a>"
+msgstr ""
+"Pour plus d'information sur Kiamo, visiter le <a href=\"https://kiamo.fr\" "
+"target=\"_blank\">site officiel Kiamo</a>"
+
+#: kiamo.php:140
+msgid "Kiamo appearance settings are only available on pro version"
+msgstr ""
+"Les réglages d'apparence Kiamo ne sont disponibles que sur la version pro"
+
+#: kiamo.php:142
+msgid "Edit Kiamo appearance settings"
+msgstr "Modifier les réglages d'apparence"
+
+#: kiamo.php:144
+msgid "Kiamo chat"
+msgstr "Chat Kiamo"
+
+#: kiamo.php:146
+msgid "Enable chat"
+msgstr "Activer le chat"
+
+#: kiamo.php:150 kiamo.php:185
+msgid "Server name or IP"
+msgstr "Nom du serveur ou adresse IP"
+
+#: kiamo.php:154
+msgid "Mode"
+msgstr "Mode"
+
+#: kiamo.php:156
+msgid "Chat"
+msgstr "Chat"
+
+#: kiamo.php:157
+msgid "Targeting"
+msgstr "Web ciblage"
+
+#: kiamo.php:161
+msgid "Chat ID"
+msgstr "ID chat"
+
+#: kiamo.php:165
+msgid "Targeting ID"
+msgstr "ID web ciblage"
+
+#: kiamo.php:169 kiamo.php:197
+msgid "Agent ID"
+msgstr "ID Agent"
+
+#: kiamo.php:173 kiamo.php:201
+msgid "Customer ID"
+msgstr "ID Client"
+
+#: kiamo.php:176
+msgid "Kiamo call back"
+msgstr "Call back Kiamo"
+
+#: kiamo.php:178
+msgid "Kiamo call back is only available on pro version"
+msgstr "Le call back Kiamo n'est disponible que sur la version pro"
+
+#: kiamo.php:181
+msgid "Enable call back"
+msgstr "Activer le call back"
+
+#: kiamo.php:189
+msgid "Token"
+msgstr "Jeton"
+
+#: kiamo.php:193
+msgid "Service ID"
+msgstr "ID Service"
+
+#: kiamo.php:224
+msgid "Kiamo appearance settings"
+msgstr "Réglages d'apparence Kiamo"
+
+#: kiamo.php:229
+msgid "Logo"
+msgstr "Logo"
+
+#: kiamo.php:239
+msgid "Background image"
+msgstr "Image de fond"
+
+#: kiamo.php:249
+msgid "Callback button"
+msgstr "Bouton de rappel"
+
+#: kiamo.php:255
+msgid "Chat button"
+msgstr "Bouton de chat"
+
+#: kiamo.php:261
+msgid "Text"
+msgstr "Texte"
+
+#: kiamo.php:268
+msgid "Background color"
+msgstr "Couleur de fond"
+
+#: kiamo.php:277
+msgid "Border color"
+msgstr "Couleur de bordure"
+
+#: kiamo.php:394
+msgid "callback_service_id required"
+msgstr "ID Service obligatoire"
+
+#: kiamo.php:395
+msgid "callback_agent_id required"
+msgstr "ID Agent obligatoire"
+
+#: kiamo.php:396
+msgid "callback_customer_id required"
+msgstr "ID Client obligatoire"
+
+#: kiamo.php:399
+msgid "phone required"
+msgstr "N° Téléphone obligatoire"
+
+#: kiamo.php:401
+msgid "invalid phone"
+msgstr "N° Téléphone invalide"
+
+#: kiamo.php:404
+msgid "name required"
+msgstr "Nom obligatoire"
+
+#: kiamo.php:417
+msgid "Your callback request has been sent"
+msgstr "Votre demande a bien été transmise."
+
+#: kiamo.php:447 kiamo.php:456
+msgid "Kiamo call back error"
+msgstr "Ce service est momentanément indisponible"
+
+#: templates/kiamo.php:12
+msgid "Got a question ?"
+msgstr "Une question ?"
+
+#: templates/kiamo.php:25
+msgid "Please choose chat or web call back"
+msgstr "Un conseiller est disponible pour vous répondre en direct"
+
+#: templates/kiamo.php:42
+msgid "Web call back"
+msgstr "Du lundi au vendredi, de 07h30 à 17h30 nous vous rappelons !"
+
+#: templates/kiamo.php:43
+msgid "Please fill in this form so we can call you back"
+msgstr ""
+"Indiquez votre nom et le numéro de téléphone sur lequel vous voulez être "
+"rappelé !"
+
+#: templates/kiamo.php:44
+msgid "Name"
+msgstr "Nom"
+
+#: templates/kiamo.php:45
+msgid "Phone"
+msgstr "Téléphone"
+
+#: templates/kiamo.php:46
+msgid "Call me back"
+msgstr "Me rappeller"
+
+#: templates/kiamo.php:47
+msgid "As soon as possible"
+msgstr "Dès que possible"
+
+#: templates/kiamo.php:48
+msgid "From 7 am"
+msgstr "Entre 07h30 et 10h00"
+
+#: templates/kiamo.php:49
+msgid "From 10 am"
+msgstr "Entre 10h00 et 12h00"
+
+#: templates/kiamo.php:50
+msgid "From 12 am"
+msgstr "Entre 12h00 et 14h00"
+
+#: templates/kiamo.php:51
+msgid "From 2 pm"
+msgstr "Entre 14h00 et 16h00"
+
+#: templates/kiamo.php:52
+msgid "From 4 pm"
+msgstr "Entre 16h00 et 17h30"

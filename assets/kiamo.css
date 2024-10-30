@@ -1,0 +1,76 @@
+/* Kiamo Chat */
+
+#kiamo-tab{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  color: #fff;
+  font-family: arial,verdana,sans-serif;
+  font-size: 19.2px;
+  font-weight: bold;
+  padding: 8px 15px 5px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-left: auto;
+  width: 280px;
+  background-color: #0d3887;
+  z-index: 99;
+}
+#kiamo-tab a{
+  color: inherit;
+}
+#kiamo-tab a img {
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+[id$="kiamo-chat"]{ position: fixed; z-index: 100; right: 0; bottom: 0; width: 282px !important; height: 300px; background: white !important; font-size: 12px; text-align: center; font-family: arial,verdana,sans-serif; }
+body #fake-kiamo-chat{ height: 140px; }
+@media (max-width: 640px) {
+  body #fake-kiamo-chat,
+  body #kiamo-chat.kc-conversation{
+    width: 100vw !important;
+    height: 100%;
+  }
+}
+[id$="kiamo-chat"] .kc-icon.kc-close{ cursor: pointer; }
+[id$="kiamo-chat"]{ right: 0 !important; border-top-left-radius: 15px; border-top-right-radius: 15px; overflow: hidden; border: 1px solid #143181 !important; border-bottom: none !important;  }
+[id$="kiamo-chat"] [id$="kc-header"]{
+  height: 20px;
+  padding: 5px;
+  border: none !important;
+  color: white;
+  background-color: #0d3887;
+  /*background: -moz-linear-gradient(top, #143181 0%, #516ba6 100%);
+  background: -webkit-linear-gradient(top, #143181 0%,#516ba6 100%);
+  background: linear-gradient(to bottom, #143181 0%,#516ba6 100%);*/
+  box-sizing: content-box;
+}
+[id$="kiamo-chat"] [id$="kc-header"] [id$="kc-logo"]{ float: left; width: 120px !important; height: 16px; background-image: url('kc-logo.png') !important; background-position: 0 !important; background-repeat: no-repeat !important; }
+[id$="kiamo-chat"] [id$="kc-header"] [id$="kc-topbar-actions"] { float: right; }
+[id$="kiamo-chat"] [id$="kc-header"] [id$="kc-topbar-actions"] .kc-icon{ width: 16px !important; height: 16px !important; background-repeat: no-repeat !important; background-position: 0 !important; margin: 0 0.5em !important; }
+[id$="kiamo-chat"] [id$="kc-header"] [id$="kc-topbar-actions"] .kc-icon.kc-lower{ display: none !important; }
+[id$="kiamo-chat"] [id$="kc-header"] [id$="kc-topbar-actions"] .kc-icon.kc-upper{ display: none !important; }
+[id$="kiamo-chat"] [id$="kc-header"] [id$="kc-topbar-actions"] .kc-icon.kc-print{ background-image: url('kc-print.png') !important; }
+[id$="kiamo-chat"] [id$="kc-header"] [id$="kc-topbar-actions"] .kc-icon.kc-mail{ background-image: url('kc-mail.png') !important; }
+[id$="kiamo-chat"] [id$="kc-header"] [id$="kc-topbar-actions"] .kc-icon.kc-toggler{ display: none !important; }
+[id$="kiamo-chat"] [id$="kc-header"] [id$="kc-topbar-actions"] .kc-icon.kc-close,
+[id$="kiamo-chat"] [id$="kc-header"] [id$="kc-topbar-actions"] .kc-icon.fake-kc-close{ background-image: url('kc-close.png') !important; }
+[id$="kiamo-chat"] [id$="kc-body"] [id$="kc-message-list"] { background: white; }
+[id$="kiamo-chat"] [id$="kc-body"] [id$="kc-message-list"] .kc-message { background: #ecf0f1; border-radius: 5px; color: #646567; padding: 5px; margin: 5px; }
+[id$="kiamo-chat"] [id$="kc-body"] [id$="kc-message-list"] .kc-choice { background-image: url('kc-choice-bg.jpg'); background-repeat: no-repeat; background-position: 10px 10px; background-size: 80px auto; padding: 10px 0 10px 85px; }
+[id$="kiamo-chat"] [id$="kc-body"] [id$="kc-message-list"] .kc-choice > p { line-height: 16px; margin-bottom: 12px; }
+[id$="kiamo-chat"] [id$="kc-body"] [id$="kc-message-list"] .kc-choice > .btn-callback,
+[id$="kiamo-chat"] [id$="kc-body"] [id$="kc-message-list"] .kc-choice > .btn-chat{ display: inline-block; }
+
+/* Kiamo callback */
+body #fake-kiamo-chat.kc-callback{ height: 300px; }
+body #fake-kiamo-chat.kc-callback h3{ margin: 1em 0; font-size: 16px; line-height: 18px; color: #c50c29; }
+body #fake-kiamo-chat.kc-callback p{ line-height: 16px; margin-bottom: 12px; }
+body #fake-kiamo-chat.kc-callback #fake-kc-header #fake-kc-logo{ background-image: none !important; width: auto !important; font-size: 16px; font-weight: bold; }
+body #fake-kiamo-chat.kc-callback #fake-kc-header #fake-kc-logo:before{ content: "Oui, rappelez-moi !"; }
+body #fake-kiamo-chat.kc-callback form { margin-top: }
+body #fake-kiamo-chat.kc-callback form label{ display: inline-block; text-align: left; width: 85px; }
+body #fake-kiamo-chat.kc-callback form input{ max-width: 160px; }
+body #fake-kiamo-chat.kc-callback form input:focus{ background-color: white; color: black; }
